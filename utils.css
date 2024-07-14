@@ -1,0 +1,32 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-image: linear-gradient(to right, rgb(34, 34, 34), rgb(68, 68, 68) , rgb(109, 109, 109));
+    text-align: center;
+  }
+  
+  .box{
+    position: relative;
+  
+    /* justify-content: center;
+    align-items: center; */
+    border:solid #ffffff;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 8px;
+    }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  
